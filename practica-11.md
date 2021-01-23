@@ -17,7 +17,7 @@ $ docker run -it --rm wpscanteam/wpscan --url http://DIRECCION-IP  --enumerate p
 
 Donde "DIRECCION-IP" será la IP pública del servidor donde esté alojada la página a escanear.
 
-![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(14).png)
+![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(19).png)
 
 No obstante, se necesita una clave API para poder escanear las vulnerabilidades del sistema, para ello habrá que registrarse en WPScan para que se nos proporcione la misma, que tiene 50 usos gratuitos al día.
 
@@ -33,7 +33,7 @@ La cual podemos encontrar aquí:
 
 El resultado:
 
-![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(13).png)
+![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(14).png)
 
 Como se puede ver aparecen un par de vulnerabilidades a causa del plugin "themeisle-companion" que está desactualizado, gracias a esta herramienta se podrá reparar la vulnerabilidad fácilmente.
 
