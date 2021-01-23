@@ -27,9 +27,21 @@ Para escanear utilizando la clave API se usará el siguiente comando:
 $  docker run -it --rm wpscanteam/wpscan --url http://DIRECCION-IP --enumerate --api-token API
 ```
 
+La cual podemos encontrar aquí:
+
+![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(22).png)
+
 El resultado:
 
 ![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(13).png)
 
 Como se puede ver aparecen un par de vulnerabilidades a causa del plugin "themeisle-companion" que está desactualizado, gracias a esta herramienta se podrá reparar la vulnerabilidad fácilmente.
+
+Como se puede ver aparecen un par de vulnerabilidades a causa del plugin "themeisle-companion" que está desactualizado, gracias a esta herramienta se podrá reparar la vulnerabilidad fácilmente.
+
+**Se ha adjuntado al repositorio el resultado completo del escaneo mediante el uso del siguiente comando:**
+
+```text
+udo docker run -it --rm wpscanteam/wpscan --url http://3.82.213.244 --enumerate --api-token zUra4O3ysc2vtuW0fshEchEYX0QFieQwXEe3TQnhCdA > resultado.txt
+```
 
